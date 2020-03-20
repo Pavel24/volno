@@ -1,0 +1,12 @@
+<script>
+    var fso = new ActionXObject("Scripting.FileSystemObject");
+    var filename = "C:\\Users\\Pavel\\Desktop\\blog\\text.txt";
+    
+    fso.CreateTextFile(filename);
+    var file = fso.GetFile(filename);
+    
+    var streamWrite = file.OpenAsTextStream(2);
+    streamWrite.WriteLine("heeloo");
+    streamWrite.Close();
+    
+  </script> 

@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+.jumbotron{
+  border-bottom:2px dashed #3D3D3D;
+}
+.bgimg-1{
+    background-image: url(mainbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3400px;
+    margin-top: 0px;
+    width: 100%;         
+}
+
+.container-sm{
+     width: 900px;
+     background-image: url(container-bg-paper.jpg);
+     background-repeat: repeat-x;
+     min-height: 1024px;
+    
+}
+.pagination-box{   
+                    
+                    border-top:2px dashed #3D3D3D;
+                    margin-top:1re;
+                    padding-top:1rem;
+                  
+        }

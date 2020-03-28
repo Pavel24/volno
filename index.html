@@ -11,6 +11,7 @@
     <body>  
         <div class="bgimg-1">   
             <div class="container-sm pt-3">  <div class="jumbotron bg-transparent d-flex justify-content-center "><h1>Vítej na blogu muzea čs. armády a opevnění 1938</h1></div>  
+               <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
                 <div class="row no-gutters">  
                     <h2 class="col-12 col-sm-6 col-md-5">Nadpis příspěvku</h2>  
                     <h3 class="col-6 col-md-4">Datum vložení DD:MM:yyyy</h3> 
@@ -19,9 +20,10 @@
                     <p class="text-prispevku">Text příspěvku, fotka
                     </p>  
                     <img class="foto-k-prispevku">  
-                </div>      
+                </div>
+                <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>      
                 <div class="row no-gutters">  
-                    <h2 class="col-12 col-sm-6 col-md-5">Nadpis příspěvku</h2>  
+                    <h2 class="col-12 col-sm-6 col-md-5">Nadpis příspěvku</h2>
                     <h3 class="col-6 col-md-4">Datum vložení DD:MM:yyyy</h3>  
                 </div>  
                 <div>  
@@ -40,8 +42,8 @@
 
               </div> 
               <div class="button-box d-flex justify-content-center"> 
-                <button type="button" class="btn btn-primary" id="pridej-prispevek" onclick="formular.html">Přidat příspěvek</button>  
-                <button type="button" class="btn btn-danger" href="formular.html">Odebrat příspěvek</button>  
+                <button type="button" class="btn btn-primary" onclick=pridejPrispevek()>Přidat příspěvek</button>  
+                <button type="button" class="btn btn-danger" onclick=odeberPrispevek()>Odebrat příspěvek</button>  
             </div> 
             </div> 
         </div>  
@@ -49,5 +51,8 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>    
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+<script 
+   src="script.js">
+   </script>
     </body>
 </html>

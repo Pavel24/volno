@@ -21,10 +21,8 @@
      min-height: 1024px;
     
 }
-.pagination-box{   
-                    
-                    border-top:2px dashed #3D3D3D;
-                    margin-top:1re;
-                    padding-top:1rem;
-                  
-        }
+.pagination-box{                 
+    border-top:2px dashed #3D3D3D;
+    margin-top:1re;
+    padding-top:1rem;
+}
